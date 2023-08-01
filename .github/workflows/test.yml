@@ -1,5 +1,5 @@
-name: Display file content
-run-name: file content
+name: This workflow displays file content
+run-name: run name for file content
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   display_files:
-    name: display file content
+    name: job name display file content
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
